@@ -1,1 +1,1 @@
-The aim of this project is to learn, experiment and knowledge-deepen some of the most widely used technologies used on front end development. Sometimes with baby steps, other times with large steps further, I aim for the output to reach an impressive level of coolness and complexity
+The aim of this project is to learn, experiment and knowledge-deepen some of the most widely used technologies on front end development. Sometimes with baby steps, other times with large steps further, I aim for the output to reach an impressive level of coolness and complexity
