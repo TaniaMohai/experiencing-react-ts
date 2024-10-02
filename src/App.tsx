@@ -1,10 +1,16 @@
 import './App.css';
-import { Box, Typography } from '@mui/material';
+import { BrowserRouter } from 'react-router-dom';
+
+import { Box } from '@mui/material';
+
+import { RoutesRenderer } from './shared/utils/routes/RoutesRenderer';
 
 function App() {
   return (
     <Box>
-      <Typography variant="h6">This is a new React App</Typography>
+      <BrowserRouter>
+        <RoutesRenderer />
+      </BrowserRouter>
     </Box>
   );
 }

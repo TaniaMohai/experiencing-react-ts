@@ -1,0 +1,45 @@
+.navLink {
+  position: relative;
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  padding: 10px 0 10px 20px;
+  transition: background-color 120ms ease-in-out;
+  justify-content: space-between;
+}
+
+.navLink::before {
+  content: '';
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #3365ff;
+  width: 4px;
+  transition: opacity 120ms ease-in-out;
+}
+
+/*.a div:first-child, .a h6 {*/
+/*  margin-right: auto;*/
+/*}*/
+
+.active {
+  color: #3365ff;
+  background-color: #f3f4f9;
+}
+
+.active::before {
+  opacity: 1;
+}
+
+svg{
+ margin-left: 6px;
+}
+
+.activeIcon svg {
+  color: #3365ff;
+}
+
